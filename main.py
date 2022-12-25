@@ -12,7 +12,7 @@ try:
         cursorclass=pymysql.cursors.DictCursor
     )
     print('CONNECT!')
-    print('#' * 20)
+
     try:
 
         with connection.cursor() as cursor:
