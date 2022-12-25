@@ -1,9 +1,9 @@
 import pymysql
 from openapi_client import openapi
 
-from connect import host,user,password,db_name,token
+from connect import host,user,password,db_name,token3
 
-token = token
+token = token3
 client = openapi.api_client(token)
 pf = client.portfolio.portfolio_get()
 
