@@ -1,0 +1,6 @@
+print('value:', pf.payload.positions[0].average_position_price.value)
+print('currency:', pf.payload.positions[0].average_position_price.currency)
+print('balance:', pf.payload.positions[0].balance)
+print('figi:', pf.payload.positions[0].figi)
+print('ticker:', pf.payload.positions[0].ticker)
+print('name:', pf.payload.positions[0].name)

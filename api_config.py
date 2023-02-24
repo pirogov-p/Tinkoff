@@ -2,7 +2,9 @@ from openapi_client import openapi
 from datetime import datetime
 from pytz import timezone
 
-token = 't.yI6LU8whBgcZnWH7ACOk1PhuLSTidns1XR8Ip10AcbvoqLWAhBUoAi7wF_AH0hL1Eiajbsy7ikCU6q54NvrE4w'
+from connect import token1
+
+token = token1
 client = openapi.api_client(token)
 
 pf = client.portfolio.portfolio_get()
